@@ -1,100 +1,100 @@
-"     } "
-"         } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     private fun timeBomb() = Single.timer( <NUM_LIT:1> , TimeUnit.MILLISECONDS).doOnSuccess { throw TestException() } "
-"         } "
-" "
-"     } "
-"     reports.html.outputLocation = file( <STR_LIT> ) "
-" } "
-"     } "
-"     } "
-"     } "
-" @Deprecated(level = DeprecationLevel.HIDDEN, message =  <STR_LIT> ) // Since  <NUM_LIT> , was experimental prior to that "
-" "
-"     } "
-" } "
-"     override fun hashCode(): Int = System.identityHashCode(scheduler) "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-" "
-"     } "
-"     } "
-"     } "
-"     } "
-"         } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     private fun timeBomb() = Single.timer( <NUM_LIT:1> , TimeUnit.MILLISECONDS).doOnSuccess { throw TestException() } "
-"     } "
-" "
-"     } "
-" } "
-"     } "
-"     builder: LaunchFlowBuilder<T>.() -> Unit "
-"     fun checkNotMainThread() { isMainThread()?.let { check(!it) } } "
-"  */ "
-" "
-"     } "
-"     } "
-"     } "
-"  */ "
-"     error(message) "
-" "
-" "
-"     testImplementation(project( <STR_LIT> )) "
-"         get() = EmptyCoroutineContext "
-"     } "
-"     } "
-"     } "
-" "
-" "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"         get() = Message::class.java.getDeclaredMethod( <STR_LIT> ).invoke(this) as Boolean "
-"     } "
-" "
-"     } "
-"     } "
-"     } "
-" "
-"     } "
-"         } "
-"     } "
-"         job = Job() "
-"     } "
-"     } "
-"     } "
-"     } "
-"     } "
-"     // placeholder "
-"     } "
-"     fab.onMouseClicked = EventHandler { job.cancel() } // cancel coroutine on click "
-"     } "
-"     if (x <=  <NUM_LIT:1> ) x else fib(x -  <NUM_LIT:1> ) + fib(x -  <NUM_LIT:2> ) "
-" fun fibBlocking(x: Int): Int =  "
-"     testImplementation(project( <STR_LIT> )) "
-"     override fun toString() = toStringInternalImpl() ?:  <STR_LIT> "
-"     } "
-"     SwingUtilities.invokeLater(::createAndShowGUI) "
+{"gt": "     } "}
+{"gt": "         } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     private fun timeBomb() = Single.timer( <NUM_LIT:1> , TimeUnit.MILLISECONDS).doOnSuccess { throw TestException() } "}
+{"gt": "         } "}
+{"gt": " "}
+{"gt": "     } "}
+{"gt": "     reports.html.outputLocation = file( <STR_LIT> ) "}
+{"gt": " } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": " @Deprecated(level = DeprecationLevel.HIDDEN, message =  <STR_LIT> ) // Since  <NUM_LIT> , was experimental prior to that "}
+{"gt": " "}
+{"gt": "     } "}
+{"gt": " } "}
+{"gt": "     override fun hashCode(): Int = System.identityHashCode(scheduler) "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": " "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "         } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     private fun timeBomb() = Single.timer( <NUM_LIT:1> , TimeUnit.MILLISECONDS).doOnSuccess { throw TestException() } "}
+{"gt": "     } "}
+{"gt": " "}
+{"gt": "     } "}
+{"gt": " } "}
+{"gt": "     } "}
+{"gt": "     builder: LaunchFlowBuilder<T>.() -> Unit "}
+{"gt": "     fun checkNotMainThread() { isMainThread()?.let { check(!it) } } "}
+{"gt": "  */ "}
+{"gt": " "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "  */ "}
+{"gt": "     error(message) "}
+{"gt": " "}
+{"gt": " "}
+{"gt": "     testImplementation(project( <STR_LIT> )) "}
+{"gt": "         get() = EmptyCoroutineContext "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": " "}
+{"gt": " "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "         get() = Message::class.java.getDeclaredMethod( <STR_LIT> ).invoke(this) as Boolean "}
+{"gt": "     } "}
+{"gt": " "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": " "}
+{"gt": "     } "}
+{"gt": "         } "}
+{"gt": "     } "}
+{"gt": "         job = Job() "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     } "}
+{"gt": "     // placeholder "}
+{"gt": "     } "}
+{"gt": "     fab.onMouseClicked = EventHandler { job.cancel() } // cancel coroutine on click "}
+{"gt": "     } "}
+{"gt": "     if (x <=  <NUM_LIT:1> ) x else fib(x -  <NUM_LIT:1> ) + fib(x -  <NUM_LIT:2> ) "}
+{"gt": " fun fibBlocking(x: Int): Int =  "}
+{"gt": "     testImplementation(project( <STR_LIT> )) "}
+{"gt": "     override fun toString() = toStringInternalImpl() ?:  <STR_LIT> "}
+{"gt": "     } "}
+{"gt": "     SwingUtilities.invokeLater(::createAndShowGUI) "}

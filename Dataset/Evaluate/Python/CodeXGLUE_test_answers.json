@@ -1,100 +1,100 @@
-"updateCountPlug . setValue ( updateCountPlug . getValue ( )"
-"result [ len ( result ) : start ] = [ start for x in range ( start -"
-""
-"source_identifier = \"<STR_LIT>\" %"
-""
-"def make_reserved_names"
-"test ="
-"return self"
-"def"
-"worksheet . set_column ( '<STR_LIT>' ,"
-""
-""
-"common_js"
-""
-"self ."
-"controller_response = controller . xml_action"
-"def reset ("
-"@ click . argument ("
-"assert encode ( <NUM_LIT:1> , <NUM_LIT:2>"
-"loader = DictLoader ( self . site . templates"
-"instance_boot"
-"def test_map ("
-"\"<STR_LIT>\" : [ <NUM_LIT:8> , <NUM_LIT:6> ,"
-"( '<STR_LIT>' , [ [ ( '<STR_LIT>'"
-"return self"
-"ax . plot_date"
-"REGEX_IPv4 = re ."
-"self ."
-"html_theme_path = [ sphinx_rtd_theme"
-"@ command_line_value ( '<STR_LIT>' , default = get_config"
-"e ="
-""
-"[ ("
-"verifyToken = '<STR_LIT>' . join ( random . choice ( string . ascii_letters + string . digits ) for x in range ("
-"def validate"
-"field ="
-"( '<STR_LIT>' , models . OneToOneField ( parent_link = True , auto_created"
-"for stop in [ - <NUM_LIT> , - <NUM_LIT> ,"
-"class OddEven ( rst . Directive"
-"self . conn ."
-"def dispatch_all ("
-"all_keys . extend ( response [ '<STR_LIT>'"
-"t2 ="
-""
-""
-""
-"log . debug ( \"<STR_LIT>\" . format ( tup . task"
-""
-"execfile ( os"
-""
-"if"
-"rule = Rule . objects . get ( project = project , id ="
-""
-""
-"np = dims [ <NUM_LIT:0> ] * dims [ <NUM_LIT:1>"
-"if not hasattr ( func"
-"def CreateWindow ( title , className , width , height , xpos = None , ypos = None"
-"header = content [ pos1 : pos2 ] . strip"
-"return"
-"row [ <NUM_LIT:0> ] = int"
-"author"
-"elif isinstance ( axis , tuple ) and all ( isinstance ( a , int )"
-""
-"F_ALLOCSP64"
-"def __init__ ( self , name = '<STR_LIT>' , doc = '<STR_LIT>' , tags = None , timeout = '<STR_LIT>'"
-"sy = - ( <NUM_LIT:2> * y / float ("
-""
-""
-"from"
-"Field ( '<STR_LIT>' , '<STR_LIT>' , label"
-"closing_index = description . find ("
-"bins = np"
-"self . _cipher = _ARC4 . new ( key ,"
-"self . m = BeagleComposite ( self . cc , self . cm . matrix ,"
-"url ( r'<STR_LIT>' , views . create_access , name ="
-""
-"depth = re . match ( '<STR_LIT>' , depth_str ) . group ("
-"dict_values = dict"
-""
-""
-"super ( PrefixIDFilter , self ) . __init__ ("
-"request"
-"expect"
-"class FingerFactory ( protocol ."
-"print"
-"def __init__ ( self , filter = None , select = None , expand = None , max_results = None , timeout = <NUM_LIT:30> , client_request_id = None , return_client_request_id"
-""
-"meta ="
-"{"
-""
-"def"
-"x_va = ( x_va -"
-""
-"cuda ."
-""
-"Key ("
-"if re . search ( r'<STR_LIT>' , line"
-"data_menu"
-"iren ="
-"super ( HypervisorsComposite , self ) . __init__"
+{"gt": "updateCountPlug . setValue ( updateCountPlug . getValue ( )"}
+{"gt": "result [ len ( result ) : start ] = [ start for x in range ( start -"}
+{"gt": ""}
+{"gt": "source_identifier = \"<STR_LIT>\" %"}
+{"gt": ""}
+{"gt": "def make_reserved_names"}
+{"gt": "test ="}
+{"gt": "return self"}
+{"gt": "def"}
+{"gt": "worksheet . set_column ( '<STR_LIT>' ,"}
+{"gt": ""}
+{"gt": ""}
+{"gt": "common_js"}
+{"gt": ""}
+{"gt": "self ."}
+{"gt": "controller_response = controller . xml_action"}
+{"gt": "def reset ("}
+{"gt": "@ click . argument ("}
+{"gt": "assert encode ( <NUM_LIT:1> , <NUM_LIT:2>"}
+{"gt": "loader = DictLoader ( self . site . templates"}
+{"gt": "instance_boot"}
+{"gt": "def test_map ("}
+{"gt": "\"<STR_LIT>\" : [ <NUM_LIT:8> , <NUM_LIT:6> ,"}
+{"gt": "( '<STR_LIT>' , [ [ ( '<STR_LIT>'"}
+{"gt": "return self"}
+{"gt": "ax . plot_date"}
+{"gt": "REGEX_IPv4 = re ."}
+{"gt": "self ."}
+{"gt": "html_theme_path = [ sphinx_rtd_theme"}
+{"gt": "@ command_line_value ( '<STR_LIT>' , default = get_config"}
+{"gt": "e ="}
+{"gt": ""}
+{"gt": "[ ("}
+{"gt": "verifyToken = '<STR_LIT>' . join ( random . choice ( string . ascii_letters + string . digits ) for x in range ("}
+{"gt": "def validate"}
+{"gt": "field ="}
+{"gt": "( '<STR_LIT>' , models . OneToOneField ( parent_link = True , auto_created"}
+{"gt": "for stop in [ - <NUM_LIT> , - <NUM_LIT> ,"}
+{"gt": "class OddEven ( rst . Directive"}
+{"gt": "self . conn ."}
+{"gt": "def dispatch_all ("}
+{"gt": "all_keys . extend ( response [ '<STR_LIT>'"}
+{"gt": "t2 ="}
+{"gt": ""}
+{"gt": ""}
+{"gt": ""}
+{"gt": "log . debug ( \"<STR_LIT>\" . format ( tup . task"}
+{"gt": ""}
+{"gt": "execfile ( os"}
+{"gt": ""}
+{"gt": "if"}
+{"gt": "rule = Rule . objects . get ( project = project , id ="}
+{"gt": ""}
+{"gt": ""}
+{"gt": "np = dims [ <NUM_LIT:0> ] * dims [ <NUM_LIT:1>"}
+{"gt": "if not hasattr ( func"}
+{"gt": "def CreateWindow ( title , className , width , height , xpos = None , ypos = None"}
+{"gt": "header = content [ pos1 : pos2 ] . strip"}
+{"gt": "return"}
+{"gt": "row [ <NUM_LIT:0> ] = int"}
+{"gt": "author"}
+{"gt": "elif isinstance ( axis , tuple ) and all ( isinstance ( a , int )"}
+{"gt": ""}
+{"gt": "F_ALLOCSP64"}
+{"gt": "def __init__ ( self , name = '<STR_LIT>' , doc = '<STR_LIT>' , tags = None , timeout = '<STR_LIT>'"}
+{"gt": "sy = - ( <NUM_LIT:2> * y / float ("}
+{"gt": ""}
+{"gt": ""}
+{"gt": "from"}
+{"gt": "Field ( '<STR_LIT>' , '<STR_LIT>' , label"}
+{"gt": "closing_index = description . find ("}
+{"gt": "bins = np"}
+{"gt": "self . _cipher = _ARC4 . new ( key ,"}
+{"gt": "self . m = BeagleComposite ( self . cc , self . cm . matrix ,"}
+{"gt": "url ( r'<STR_LIT>' , views . create_access , name ="}
+{"gt": ""}
+{"gt": "depth = re . match ( '<STR_LIT>' , depth_str ) . group ("}
+{"gt": "dict_values = dict"}
+{"gt": ""}
+{"gt": ""}
+{"gt": "super ( PrefixIDFilter , self ) . __init__ ("}
+{"gt": "request"}
+{"gt": "expect"}
+{"gt": "class FingerFactory ( protocol ."}
+{"gt": "print"}
+{"gt": "def __init__ ( self , filter = None , select = None , expand = None , max_results = None , timeout = <NUM_LIT:30> , client_request_id = None , return_client_request_id"}
+{"gt": ""}
+{"gt": "meta ="}
+{"gt": "{"}
+{"gt": ""}
+{"gt": "def"}
+{"gt": "x_va = ( x_va -"}
+{"gt": ""}
+{"gt": "cuda ."}
+{"gt": ""}
+{"gt": "Key ("}
+{"gt": "if re . search ( r'<STR_LIT>' , line"}
+{"gt": "data_menu"}
+{"gt": "iren ="}
+{"gt": "super ( HypervisorsComposite , self ) . __init__"}
