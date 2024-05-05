@@ -21,10 +21,11 @@ The code for fine-tuning the model is located in the _Code_/_Finetune_ folder. T
 
 The results are as follows:
 
-| Dataset     |            | Before fine-tuning       | After fine-tuning on Kotlin   |
-|-------------|------------|--------------------------|-------------------------------|
-|             | Metric     | Edit Sim   | EM          | Edit Sim   | EM               |
-|-------------|------------|------------|-------------|------------|------------------|
-| Kotlin      | Scores     | 14.69      | 43.0        | 16.05      | 10.0             |
-| CodeXGLUE   | Scores     | 28.42      | 9.0         | 8.16       | 3.0              |
+| Dataset   | Metric        | Before fine-tuning | Before fine-tuning | After fine-tuning | After fine-tuning |
+|-----------|---------------|--------------------|--------------------|-------------------|-------------------|
+|           |               | Edit Sim          | EM                 | Edit Sim          | EM                |
+|-----------|---------------|--------------------|--------------------|-------------------|-------------------|
+| Kotlin    | Scores        | 14.69             | 43.0               | 16.05             | 10.0              |
+| CodeXGLUE | Scores        | 28.42             | 9.0                | 8.16              | 3.0               |
+
 
