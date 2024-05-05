@@ -23,6 +23,7 @@ The results are as follows:
 
 Dataset | Before fine-tuning | After fine-tuning on Kotlin
 
+```
 // Node.js
 let MarkdownIt = require('markdown-it'),
     MarkdownItMergeCells = require('markdown-it-merge-cells'),
@@ -40,6 +41,7 @@ let result = md.render(`
 |1|1|2|2|7|
 |1|4|3|5|5|
 `)
+```
 --- | --- | --- 
 --- | Edit sim | EM | Edit sim | EM 
 Kotlin | 14.69 | 43.0 | 16.05 | 10.0
