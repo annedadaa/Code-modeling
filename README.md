@@ -19,6 +19,8 @@ The code for fine-tuning the model is located in the _Code_/_Finetune_ folder. T
 
 ### Results
 
+I evaluated both datasets before and after fine-tuning the Phi-1.5 model on the Kotlin dataset. When measuring the model's performance, I calculated Edit Sim which stands for Fuzz Ratio (which ranges from 0 to 100, where 100 means the exact match), and EM which stands for Exact Match (number of times when two strings are identical). The results showed that the model handled Python before fine-tuning much better than afterwards. On the other hand, the model progressed in predicting Kotlin code after fine-tuning. It's worth noting though that Kotlin code contained a lot of empty lines and that explains why EM was so high in the beginning because it was pretty easy and the model didn't know much harder stuff.
+
 The results are as follows:
 
 | Dataset   | Before fine-tuning (Edit Sim) | Before fine-tuning (EM) | After fine-tuning (Edit Sim) | After fine-tuning (EM) |
@@ -27,4 +29,8 @@ The results are as follows:
 | CodeXGLUE |  28.42                         | 9.0                     | 8.16                         | 3.0                   |
 
 
+The present solution has several limitations and among them are: 
+(1) Limited GPU capacity led to reducing the input sequence length and model's parameters and therefore not so good model performance in the end
+(2) I predicted only one line at some particular position, it's also possible to predict each line and then move one step forward to predict the next one (more dynamic approach)
+(3) The collected dataset was not that large (only ~1050 files), more computational resources are needed
 
