@@ -30,7 +30,10 @@ The results are as follows:
 
 
 The present solution has several limitations and among them are: 
+
 (1) Limited GPU capacity led to reducing the input sequence length and model's parameters and therefore not so good model performance in the end
+
 (2) I predicted only one line at some particular position, it's also possible to predict each line and then move one step forward to predict the next one (more dynamic approach)
+
 (3) The collected dataset was not that large (only ~1050 files), more computational resources are needed
 
