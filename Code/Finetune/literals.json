@@ -1,0 +1,25 @@
+{
+    "str": [
+      "main", "data", "override", "val", "var", "fun", "class", "interface", "null", "true", "false",
+      "src", "/", "./", "../", ".kt",
+      "toString", "hashCode", "equals", "copy", "apply", "let", "with", "also",
+      "@Serializable", "@JvmStatic", "@JvmOverloads", "@Deprecated", "inline", "public", "private", "protected",
+      "test", "example", "sample", "demo", "foo", "bar", "baz",
+      ".json", ".xml", ".txt", "text/plain", "application/json",
+      "UTF-8", "en_US",
+      "log", "debug", "error", "info",
+      "id", "name", "url", "user", "password", "driver",
+      "print", "println"
+    ],
+    "num": [
+      "0", "1", "2", "10", "100",
+      "0.0", "1.0", "2.5", "3.14",
+      "256", "1024", "2048"
+    ],
+    "char": [
+      "a", "b", "c", "1", "2", "3", "@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "+", "=", "[", "]", "{", "}", "|", ":", ";", "'", "\"", "\\", "/", "?", ">", "<", ".", ",", "!", "`", "~"
+    ],
+    "regex": [
+      "\\d+", "^abc", "[a-z]+"
+    ]
+  }  
