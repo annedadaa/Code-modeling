@@ -23,26 +23,7 @@ The results are as follows:
 
 Dataset | Before fine-tuning | After fine-tuning on Kotlin
 
-```
-// Node.js
-let MarkdownIt = require('markdown-it'),
-    MarkdownItMergeCells = require('markdown-it-merge-cells'),
-    md = new MarkdownIt();
-md.use(MarkdownItMergeCells);
-
-// Browser (use dist/bundle.min.js)
-let md = new window.markdownit();
-md.use(window.markdownitMergeCells);
-
-let result = md.render(`
-|1|1|3|4|5|
-|-|-|-|-|-|
-|1|1|2|2|6|
-|1|1|2|2|7|
-|1|4|3|5|5|
-`)
-```
---- | --- | --- 
+--- | --- | --- | --- | ---
 --- | Edit sim | EM | Edit sim | EM 
 Kotlin | 14.69 | 43.0 | 16.05 | 10.0
 CodeXGLUE | 28.42 | 9.0 | 8.16 | 3.0
